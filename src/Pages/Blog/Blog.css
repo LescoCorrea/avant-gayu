@@ -1,0 +1,78 @@
+.hearder-blog {
+    background-image: url('../../../public/images/reste.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    padding: 25px;
+}
+
+.title-blog {
+    color: var(--1, #FFF);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.sous-blog {
+    color: var(--1, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.par-blog {
+    color: var(--1, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-video {
+    color: var(--1, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px;
+    /* 77.778% */
+}
+
+.all-blog-link {
+    display: flex;
+    align-items: center;
+}
+
+.blog-préc {
+    display: flex;
+    align-items: center;
+    margin-top: -9px;
+}
+
+.fa-angle-left{
+    font-weight: 500;
+    margin-top: -10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.préc {
+    color: #313131;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    margin-left: 5px;
+}
+.préc:hover {
+    color: #313131;
+}

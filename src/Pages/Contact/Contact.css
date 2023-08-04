@@ -1,0 +1,13 @@
+li .breadcumbs {
+    color: #313131;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+}
+
+.breadcrumb {
+    background: white;
+}

@@ -1,0 +1,83 @@
+.container-login {
+    background-image: url('../../../public/images/login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-regis {
+    margin: 8rem;
+}
+
+
+.titre-con {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 77.778px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-control {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-control:hover {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input-text {
+    color: #999;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-con {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19.444px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #9A0000;
+}
+
+.par-con {
+    color: #999;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ins-con {
+    color: #9A0000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ins-con:hover {
+    color: #FFF;
+}
