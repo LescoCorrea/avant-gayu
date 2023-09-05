@@ -65,17 +65,16 @@ export default function Propos() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='prop-img'>
                                 <img src="images/img-prop.png" alt="" />
                             </div>
-                            <div className='mt-5'>
+                            <div className='prop-img mt-5'>
                                 <img src="images/img-props.png" alt="" />
                             </div>
                         </div>
                     </div>
 
                     <div className='cont-prop'>
-                        <h1 className='title-propos'>Contactez - nous</h1>
                         <Contacts />
                     </div>
                 </div>

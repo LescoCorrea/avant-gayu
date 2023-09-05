@@ -10,7 +10,7 @@ export default function TopNav() {
     const handleClick = () => setClick(!click);
 
     return (
-        <div className="container">
+        <div className="container navbar-cont">
             <nav className='nav' >
                 <a href="/" className='avatar-img'><img src="images/logo.png" alt="" /></a>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -36,7 +36,7 @@ export default function TopNav() {
                     <div className='btn-cont'>
                         <Link to="/login">CONNEXION</Link>
                         <span className='bar'>/</span>
-                        <Link href="/register" className='reg'> INSCRIPTION</Link>
+                        <Link to="/register" className='reg'> INSCRIPTION</Link>
                     </div>
                 </ul>
                 <div className='nav-icon' onClick={handleClick}>

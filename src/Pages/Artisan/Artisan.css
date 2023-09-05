@@ -14,7 +14,7 @@
 .sidebar a {
     display: block;
     color: black;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -166,6 +166,7 @@ div.content {
     background-image: url('../../../public/images/bg-artisan.png');
     height: 100vh;
     background-repeat: no-repeat;
+    padding: 1rem;
 }
 
 .avatar {
@@ -250,6 +251,7 @@ div.content {
     background: #1DD03F;
     margin-right: 20px;
     padding: 8px;
+    text-decoration: none;
 }
 
 .fa-whatsapp {
@@ -276,6 +278,7 @@ div.content {
     font-weight: 500;
     line-height: 22px;
     margin-right: 22px;
+    
 }
 
 .call {
@@ -308,6 +311,7 @@ div.content {
     background: #9A0000;
     margin-right: 20px;
     padding: 8px;
+    text-decoration: none;
 }
 
 .numb-conte {
@@ -470,6 +474,7 @@ div.content {
 
 .avatar-prop img {
     width: 218px;
+    cursor: pointer;
 }
 
 .coordonne {
@@ -481,10 +486,16 @@ div.content {
 .atelier {
     color: #000;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 15.996px;
+    border-bottom: 2px solid #4F4F4F;
+    text-decoration: none;
+}
+.atelier:hover{
+    color: #000;
+    text-decoration: none;
 }
 
 .prof {
@@ -534,4 +545,119 @@ div.content {
     color: #fff;
     font-weight: 600;
     margin-left: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .avatar-prop img {
+        width: 300px;
+        height: 250px;
+        cursor: pointer;
+    }
+
+    .avatar-prop {
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+    .contain-number {
+        margin-top: 22px;
+    }
+
+    .numb-cont {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        background: #9A0000;
+        width: 150px;
+        height: 55px;
+    }
+
+    .numb-cont2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        background: #9A0000;
+        width: 100%;
+        height: 45px;
+        text-decoration: none;
+    }
+
+    .fa-filter {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .lieu {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .resultats {
+        color: #9C9C9C;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .search-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pays {
+        color: #616161;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .sidebar {
+        margin-top: 0px;
+    }
+
+    .header-artisan {
+        width: 100%;
+        background-position: -386px;
+    }
+
+    .reali {
+        color: #5B5B5B;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .avt img {
+        width: 100%;
+    }
+
+    .what-cont2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid #1DD03F;
+        background: #1DD03F;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    .voir-artisan {
+        margin-top: 20px;
+    }
+
+    .vr-artisan {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

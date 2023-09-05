@@ -24,7 +24,7 @@ export default function Contacts() {
                                 </div>
                                 <div className="profile-contact mt-5">
                                     <div className='link-contact'>
-                                        <a href="/#" className='serv-prop'>Soumettre</a>
+                                        <a href="/#" className='blog-link'>Soumettre</a>
                                     </div>
                                 </div>
                             </form>

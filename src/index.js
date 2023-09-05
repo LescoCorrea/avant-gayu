@@ -15,6 +15,9 @@ import Contact from './Pages/Contact/Contact';
 import VoirBlog from './Pages/Blog/VoirBlog';
 import Login from './Pages/Auth/Login';
 import Register from './Pages/Auth/Register';
+import Dashboard from './Pages/Admin/Dashboard';
+import ListeArtisans from './Pages/Admin/ListeArtisans';
+import AjoutArtisan from './Pages/Admin/AjoutArtisan';
 
  const router = createBrowserRouter([
   {
@@ -54,6 +57,19 @@ import Register from './Pages/Auth/Register';
     path: "/register",
     element: <Register />,
   },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+  {
+    path: "/dashboard/liste",
+    element: <ListeArtisans />,
+  },
+  {
+    path: "/dashboard/liste/ajout",
+    element: <AjoutArtisan />,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

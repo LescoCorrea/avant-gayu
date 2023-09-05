@@ -8,8 +8,10 @@ import TopNav from '../../components/Navbar/TopNav';
 export default function VoirArtisan() {
     return (
         <div className='container-artisan'>
-            <div className='header-artisan'>
-                <TopNav/>
+            <div className='voirArtisan'>
+                <div className='header-artisan'>
+                    <TopNav />
+                </div>
             </div>
             <div className="container mt-5 mb-5">
 
@@ -54,13 +56,13 @@ export default function VoirArtisan() {
                                 <h6 className='cont-art'>Contacter par Téléphone</h6>
                             </div>
                             <div className='contain-whtsp'>
-                                <a href="/*" className='what-cont'>
+                                <a href="/*" className='what-cont what-cont2'>
                                     <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                     <span className='what-link'>WhatsApp</span>
                                 </a>
                             </div>
                             <div className='contain-number'>
-                                <a href="/*" className='numb-cont'>
+                                <a href="/*" className='numb-cont numb-cont2'>
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                     <span className='call'>Afficher le numéro</span>
                                 </a>
@@ -70,13 +72,13 @@ export default function VoirArtisan() {
                                 <h6 className='cont-art'>Contacter via chat</h6>
                             </div>
                             <div className='contain-number'>
-                                <a href="/*" className='numb-cont'>
+                                <a href="/*" className='numb-cont numb-cont2'>
                                     <i class="fa fa-comments" aria-hidden="true"></i>
                                     <span className='call'>Commencez à discuter</span>
                                 </a>
                             </div>
                             <div className='contain-whtsp'>
-                                <a href="/*" className='what-cont'>
+                                <a href="/*" className='what-cont what-cont2'>
                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                     <span className='what-link'>Ajouter aux Favoris</span>
                                 </a>
@@ -84,7 +86,7 @@ export default function VoirArtisan() {
                         </div>
 
                         <div className="col-md-8 voir-artisan">
-                            <div>
+                            <div className='vr-artisan'>
                                 <div>
                                     <h3 className='titre-prix'>Prix</h3>
                                 </div>
@@ -137,7 +139,7 @@ export default function VoirArtisan() {
                             <h1 className='reali'>LES REALISATIONS DE L’ARTISAN</h1>
                         </div >
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan1.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -154,7 +156,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan2.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -173,7 +175,7 @@ export default function VoirArtisan() {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan3.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -190,7 +192,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan4.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -209,7 +211,7 @@ export default function VoirArtisan() {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan5.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -226,7 +228,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan6.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -245,7 +247,7 @@ export default function VoirArtisan() {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan7.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -262,7 +264,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan8.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -281,7 +283,7 @@ export default function VoirArtisan() {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan9.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -298,7 +300,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan10.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -317,7 +319,7 @@ export default function VoirArtisan() {
                     </div>
                     <div className="row mt-5">
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan11.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -334,7 +336,7 @@ export default function VoirArtisan() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div>
+                            <div className='avt'>
                                 <img src="images/artisan12.png" alt="" />
                                 <div className='cont-comment mt-3'>
                                     <div className='all-star'>
@@ -352,7 +354,7 @@ export default function VoirArtisan() {
                         </div>
                     </div>
                 </div>
-                
+
 
                 <Contacts />
             </div>

@@ -56,6 +56,9 @@
     align-items: center;
     margin-top: -9px;
 }
+.predb{
+    margin-left: 5px;
+}
 
 .fa-angle-left{
     font-weight: 500;
@@ -75,4 +78,18 @@
 }
 .préc:hover {
     color: #313131;
+}
+.blog-links{
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #9A0000;
 }

@@ -51,5 +51,43 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
 
+.blog-link {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    /*border: 1px solid #971200;*/
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ECEBF6;
+}
+
+.blog-link:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media screen and (max-width: 900px) {
+    .col-bg {
+        width: 400px;
+        margin: 14px;
+        margin-top: -50px;
+    }
+    .paragraph-contact {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;  
+    }
+    .par-contact {
+        padding: 4rem;
+    }
 }

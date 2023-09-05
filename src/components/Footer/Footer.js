@@ -10,33 +10,33 @@ export default function Footer() {
                         <div className="cols">
                             <li className='footer-title-link'>Product
                                 <div className='sous-title'>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
-                                    <li><a href="/#">Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
+                                    <li><a href="/#" className='blog-link1'>Lorem ipsum dolor</a></li>
                                 </div>
                             </li>
                         </div>
                         <div className="cols ">
                             <li className='footer-title-link'>Information
                                 <div className='sous-title'>
-                                    <li><a href="/#">FAQ</a></li>
-                                    <li><a href="/#">Blog</a></li>
-                                    <li><a href="/#">Support</a></li>
+                                    <li><a href="/#" className='blog-link1'>FAQ</a></li>
+                                    <li><a href="/#" className='blog-link1'>Blog</a></li>
+                                    <li><a href="/#" className='blog-link1'>Support</a></li>
                                 </div>
                             </li>
                         </div>
                         <div className="cols">
                             <li className='footer-title-link'>Company
                                 <div className='sous-title'>
-                                    <li><a href="/#">Accueil</a></li>
-                                    <li><a href="/#">Nos artisans</a></li>
-                                    <li><a href="/#">A propos de nous</a></li>
-                                    <li><a href="/#">Contactez nous</a></li>
-                                    <li><a href="/#">Blog</a></li>
-                                    <li><a href="/#">Recherche</a></li>
+                                    <li><a href="/#" className='blog-link1'>Accueil</a></li>
+                                    <li><a href="/#" className='blog-link1'>Nos artisans</a></li>
+                                    <li><a href="/#" className='blog-link1'>A propos de nous</a></li>
+                                    <li><a href="/#" className='blog-link1'>Contactez nous</a></li>
+                                    <li><a href="/#" className='blog-link1'>Blog</a></li>
+                                    <li><a href="/#" className='blog-link1'>Recherche</a></li>
                                 </div>
                             </li>
                         </div>
@@ -68,9 +68,9 @@ export default function Footer() {
                         </div>
                         <div>
                             <div className='conditions'>
-                                <a href="/#">Conditions</a>
-                                <a href="/#">Confidentialité</a>
-                                <a href="/#">Cookies</a>
+                                <a href="/#" className='blog-link1'>Conditions</a>
+                                <a href="/#" className='blog-link1'>Confidentialité</a>
+                                <a href="/#" className='blog-link1'>Cookies</a>
                             </div>
                         </div>
                         <div className='reseau-social'>
@@ -80,12 +80,12 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div>
-                                <div  className='lesco'>
+                                <div className='lesco'>
                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <div className=''>
-                                <div  className='lesco'>
+                                <div className='lesco'>
                                     <i class="fa fa-twitter" aria-hidden="true"></i>
                                 </div>
                             </div>

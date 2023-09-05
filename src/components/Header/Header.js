@@ -2,48 +2,23 @@ import React from 'react'
 import './Header.css';
 import Footer from '../Footer/Footer';
 import TopNav from '../Navbar/TopNav';
-import Slider from "react-slick";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/free-mode';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 100,
-        slidesToShow: 3,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
+
 
     return (
         <div>
             <header className='header'>
-                <TopNav />
+                <div className='head-nav'>
+                    <TopNav />
+                </div>
                 <div class="container mt-5">
                     <div class="">
                         <div class="ban-sect">
@@ -86,9 +61,9 @@ export default function Header() {
                                     nec at vitae diam quam elit sit lacus elementum. Eget sed nunc maecenas nisl proin. A.
                                 </p>
                                 <div className="btn-services">
-                                    <div className="btn-link d-flex">
-                                        <div className='link-serv'>
-                                            <a href="/#" className='serv-prop'>A propos de nous</a>
+                                    <div className="btn-links d-flex">
+                                        <div className='link-servs'>
+                                            <a href="/propos" className='blog-links'>A propos nous</a>
                                         </div>
                                         <div className='reg-links'>
                                             <span className='serv-video'>Regarder la vidéo</span>
@@ -149,8 +124,8 @@ export default function Header() {
                                     <img src="images/profile.png" alt="" />
                                 </div>
                                 <div className="profile mt-5">
-                                    <div className='link-serv'>
-                                        <a href="/#" className='serv-prop'>Voir nos artisans</a>
+                                    <div className='link-servs'>
+                                        <a href="/artisan" className='blog-links'>Voir nos artisans</a>
                                     </div>
                                 </div>
                             </div>
@@ -269,9 +244,7 @@ export default function Header() {
                                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     </p>
                                     <div className="profile mt-3">
-                                        <div className='link-blog'>
-                                            <a href="/#" className='blog-link'>Lire</a>
-                                        </div>
+                                        <a href="/blog" className='blog-link2'>Lire</a>
                                     </div>
                                 </div>
                             </div>
@@ -283,9 +256,7 @@ export default function Header() {
                                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
                                     <div className="profile mt-3">
-                                        <div className='link-blog'>
-                                            <a href="/#" className='blog-link'>Lire</a>
-                                        </div>
+                                        <a href="/blog" className='blog-link2'>Lire</a>
                                     </div>
                                 </div>
                             </div>
@@ -297,9 +268,7 @@ export default function Header() {
                                     <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     <div className="profile mt-3">
-                                        <div className='link-blog'>
-                                            <a href="/#" className='blog-link'>Lire</a>
-                                        </div>
+                                        <a href="/blog" className='blog-link2'>Lire</a>
                                     </div>
                                 </div>
                             </div>
@@ -307,7 +276,7 @@ export default function Header() {
                     </div>
                     <div className="profile mt-5">
                         <div className='link-servs'>
-                            <a href="/#" className='serv-prop'>Voir plus</a>
+                            <a href="/#" className='blog-links'>Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -372,74 +341,35 @@ export default function Header() {
 
             <section className='slider-container mt-5 mb-5'>
 
-                <Slider {...settings}>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="card" >
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="/#" class="card-link">Card link</a>
-                                <a href="/#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    </div>
-                </Slider>
+                <div className="container-fluid px-4 py-4 justify-content-center">
+                    <Swiper
+                        freeMode={true}
+                        grapCursor={true}
+
+                        className='mySwiper'
+                        slidesPerView={5}
+                        spaceBetween={30}
+                    >
+                        <SwiperSlide>
+                            <h1>1</h1>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <h1>2</h1>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <h1>3</h1>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <h1>4</h1>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <h1>5</h1>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <h1>6</h1>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
 
             </section>
 
@@ -466,7 +396,7 @@ export default function Header() {
                                     </div>
                                     <div className="profile-contact mt-5">
                                         <div className='link-contact'>
-                                            <a href="/#" className='serv-prop'>Soumettre</a>
+                                            <a href="/#" className='blog-link'>Soumettre</a>
                                         </div>
                                     </div>
                                 </form>

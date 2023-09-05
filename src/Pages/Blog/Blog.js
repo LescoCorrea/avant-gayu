@@ -51,7 +51,7 @@ export default function Blog() {
                                         </p>
                                         <div className="profile mt-3">
                                             <div className='link-blog'>
-                                                <a href="/voirblog" className='blog-link'>Lire</a>
+                                                <a href="/voirblog" className='blog-links'>Lire</a>
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@ export default function Blog() {
                                         <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
                                         <div className="profile mt-3">
                                             <div className='link-blog'>
-                                                <a href="/voirblog" className='blog-link'>Lire</a>
+                                                <a href="/voirblog" className='blog-links'>Lire</a>
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ export default function Blog() {
                                         <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                         <div className="profile mt-3">
                                             <div className='link-blog'>
-                                                <a href="/voirblog" className='blog-link'>Lire</a>
+                                                <a href="/voirblog" className='blog-links'>Lire</a>
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ export default function Blog() {
                                     </p>
                                     <div className="profile mt-3">
                                         <div className='link-blog'>
-                                            <a href="/voirblog" className='blog-link'>Lire</a>
+                                            <a href="/voirblog" className='blog-links'>Lire</a>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@ export default function Blog() {
                                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
                                     <div className="profile mt-3">
                                         <div className='link-blog'>
-                                            <a href="/voirblog" className='blog-link'>Lire</a>
+                                            <a href="/voirblog" className='blog-links'>Lire</a>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@ export default function Blog() {
                                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     <div className="profile mt-3">
                                         <div className='link-blog'>
-                                            <a href="/voirblog" className='blog-link'>Lire</a>
+                                            <a href="/voirblog" className='blog-links'>Lire</a>
                                         </div>
                                     </div>
                                 </div>
