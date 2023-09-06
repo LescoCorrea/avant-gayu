@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css';
 import Footer from '../Footer/Footer';
 import TopNav from '../Navbar/TopNav';
+import Slick from './Slick.js'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -276,7 +277,7 @@ export default function Header() {
                     </div>
                     <div className="profile mt-5">
                         <div className='link-servs'>
-                            <a href="/#" className='blog-links'>Voir plus</a>
+                            <a href="/#" className='blog-linkss'>Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -337,43 +338,11 @@ export default function Header() {
                 </div>
             </section>
 
-            {/* Temoignage */}
-
-            <section className='slider-container mt-5 mb-5'>
-
-                <div className="container-fluid px-4 py-4 justify-content-center">
-                    <Swiper
-                        freeMode={true}
-                        grapCursor={true}
-
-                        className='mySwiper'
-                        slidesPerView={5}
-                        spaceBetween={30}
-                    >
-                        <SwiperSlide>
-                            <h1>1</h1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <h1>2</h1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <h1>3</h1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <h1>4</h1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <h1>5</h1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <h1>6</h1>
-                        </SwiperSlide>
-                    </Swiper>
+            <section className='slicks mt-5 mb-5'>
+                <div className="container-fluid">
+                    <Slick/>
                 </div>
-
             </section>
-
-            {/* Fin */}
 
             <section className='container-services mt-5 mb-5'>
                 <div className="container">

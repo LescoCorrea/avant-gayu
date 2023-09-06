@@ -27,31 +27,29 @@
 }
 
 .links {
-    color: #4d4d4e;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     height: 40px;
     padding: 5px;
     width: 150px;
-    align-items: flex-start;
     gap: 11.471px;
     flex-shrink: 0;
+    color: #363839;
+    font-weight: 600;
     text-decoration: none;
 }
 
 .links:hover {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     height: 40px;
     padding: 5px;
     width: 150px;
-    align-items: flex-start;
     gap: 11.471px;
     flex-shrink: 0;
     border-radius: 8.879px;
     background: #9A0000;
-    color: #D1D1D1;
+    color: #FFF;
     text-decoration: none;
 }
 
